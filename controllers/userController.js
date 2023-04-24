@@ -60,7 +60,7 @@ const logout = catchAsyncErrors(async (req, res, next) => {
   });
   return res.json({
     success: true,
-    message: "Logged out!",
+    message: "Logged outt!",
   });
 });
 
